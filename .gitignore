@@ -315,3 +315,6 @@ TSWLatexianTemp*
 
 *.pdf
 *.zip
+
+common
+*.cls
