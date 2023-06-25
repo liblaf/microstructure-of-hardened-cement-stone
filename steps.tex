@@ -17,29 +17,7 @@
     1        & 0          & 0.4    & 700     & 280   & 0         \\ \hline
     2        & 15\%       & 0.4    & 595     & 280   & 105       \\ \hline
     3        & 30\%       & 0.4    & 490     & 280   & 210       \\ \hline
-  \end{tabular}
-
-\end{table}
-\han{上面那张图没看懂, 我理解是加入0.5ml消泡剂以消除混凝土表面多孔现象, 后面的数据是上面的水泥、水、粉煤灰添加量保留两位小数？}
-\wei{流动度、密度都需要记录下来, 写到报告结论里面. }
-
-% \begin{figure}
-%   \centering
-%   \includegraphics[width = 0.7 \linewidth]{figures/exp1/record table.png}
-%   \caption{实验数据记录表}
-% \end{figure}
-
-\begin{table}
-  \centering
-  \caption{实验数据记录表}
-  \begin{tabular}{cccccccc}
-    \toprule
-    实验编号 & 粉煤灰掺量        & 水胶比    & 水泥 (\unit{\gram}) & 水 (\unit{\gram}) & 粉煤灰 (\unit{\gram}) & 密度 (\unit{\gram\per\centi\meter\cubed}) & 流动度 (\unit{\milli\meter}) \\
-    \midrule
-    2        & \SI{15}{\percent} & \num{0.4} & \num{595}           & \num{280}         & \num{105}             & \num{1.925}                               & \num{121}                    \\
-    3        & \SI{30}{\percent} & \num{0.4} & \num{490}           & \num{280}         & \num{210}             & \num{1.882}                               & \num{117}                    \\
-    \bottomrule
-  \end{tabular}
+  \end{tabular}\label{tab:proportion}
 \end{table}
 
 \begin{figure}
@@ -51,7 +29,7 @@
 
 \subsubsection{试块抗压强度试验}
 试件成型 \SI{24}{\hour} 后拆模, 将其放入标准养护室中养护 \SI{7}{\day} 后测试其抗压强度.
-使用试金 \SI{300}{\kilo\newton} 试验机进行水泥净浆试块抗压强度试验.该试验机最大荷载为 \SI{300}{\kilo\newton} , 最大位移为 \SI{200}{\milli\meter} .
+使用 \SI{300}{\kilo\newton} 试金试验机进行水泥净浆试块抗压强度试验. 该试验机最大荷载为 \SI{300}{\kilo\newton} , 最大位移为 \SI{200}{\milli\meter} .
 实验过程中应严格遵照试验机操作规程:
 \begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
   \item 开动试验机之前, 先确保上下承压板之间无夹具和试样;
@@ -64,25 +42,7 @@
   \item 将测试用夹具从上下承压板之间取出;
   \item 将废试样带走, 将试验机周边清理干净.
 \end{enumerate}
-
 设备使用过程中, 如出现任何非预期现象, 应立即按下油源面板上的"急停"按钮, 停止试验机运行!
-
-试验结果如表~\ref{tab:compressive_strength_test}所示.
-
-\han{（缺少了2-1的数据, 是不是当时少拍了？）}
-\begin{table}[!t]
-  \centering
-  \caption{抗压强度测试结果}
-  \begin{tabular}{|c|c|}
-    \hline
-    试样编号 & 抗压强度(\si{\mega\pascal}) \\ \hline
-    1-1      & 39.2                        \\ \hline
-    1-2      & 36.5                        \\ \hline
-    3-1      & 30.6                        \\ \hline
-    3-2      & 30.7                        \\ \hline
-  \end{tabular}
-  \label{tab:compressive_strength_test}
-\end{table}
 
 \subsection{通过 SEM 观察水泥净浆试块断面的微观形貌}
 
